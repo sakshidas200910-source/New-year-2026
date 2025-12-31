@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy New Year ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+    .container {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+    }
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    footer {
+      padding: 30px 20px;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+    .heart {
+      color: #ff2e63;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy New Year, My Love ❤️</h1>
+    <p>A new year filled with love, smiles, and beautiful memories together</p>
+  </header>  <section class="container">
+    <div class="card">
+      <h3>🌸 Forever Starts Again</h3>
+      <p>This new year, I choose you again — today, tomorrow, and always.</p>
+    </div>
+    <div class="card">
+      <h3>✨ My Safe Place</h3>
+      <p>No matter what the year brings, your love will always feel like home.</p>
+    </div>
+    <div class="card">
+      <h3>💖 Endless Gratitude</h3>
+      <p>Thank you for every smile, every support, and every moment we share.</p>
+    </div>
+    <div class="card">
+      <h3>🌙 Growing Together</h3>
+      <p>May this year help us grow stronger, kinder, and closer than ever.</p>
+    </div>
+    <div class="card">
+      <h3>🌈 New Dreams</h3>
+      <p>New year, new dreams — and I want to chase all of them with you.</p>
+    </div>
+    <div class="card">
+      <h3>🫶 Always Us</h3>
+      <p>Whatever changes, whatever comes — it will always be us.</p>
+    </div>
+  </section>  <footer>
+    Made with <span class="heart">♥</span> for the one who means everything<br />
+    © 2026 New Beginnings
+  </footer>
+</body>
+</html>
